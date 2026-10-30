@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FrameX Watermark Remover – Free Gemini Image & Video Watermark Remover</title>
+<meta name="description" content="Remove the Gemini sparkle watermark from images and videos. Free, no login, no limits.">
+<link rel="icon" href="/logo.svg"><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="nav"><a class="brand" href="/"><img src="/logo.svg" alt="" width="34" height="34">FrameX<span>Watermark Remover</span></a>
+<nav><a href="#tool">Tool</a><a href="#how">How it works</a><a href="#faq">FAQ</a></nav></header>
+<section class="hero"><span class="pill">100% free · No login · No limits</span>
+<h1>Gemini Watermark <em>Remover</em></h1>
+<p>Remove the Gemini sparkle from AI-generated images and videos. Pixels are rebuilt with inpainting — no blur, no crop.</p></section>
+<main id="tool" class="card">
+<div class="tabs" role="tablist"><button class="tab on" data-t="image">🖼 Image</button><button class="tab" data-t="video">🎬 Video</button></div>
+<div id="drop" class="drop" tabindex="0"><input id="file" type="file" hidden>
+<div class="ico">⬆</div><b>Drop your file here or click to browse</b><small id="hint"></small></div>
+<div id="prog" class="prog" hidden><div class="bar"><i id="bar"></i></div><span id="ptxt"></span></div>
+<div id="msg" class="msg" hidden></div>
+<div id="result" hidden>
+<div id="cmp" class="cmp"><img id="after" alt="After"><div class="clip" id="clip"><img id="before" alt="Before"></div><input id="slider" type="range" min="0" max="100" value="50" aria-label="Compare"><span class="tag l">Before</span><span class="tag r">After</span></div>
+<video id="vid" controls playsinline hidden></video>
+<div class="row"><a id="dl" class="btn" download>⬇ Download</a><button id="again" class="btn ghost">Process another</button></div></div>
+</main>
+<section id="how" class="steps"><h2>How it works</h2><div class="grid">
+<div><b>1</b><h3>Upload</h3><p>Drag in a Gemini image or video.</p></div>
+<div><b>2</b><h3>Detect &amp; remove</h3><p>The sparkle is located automatically and reconstructed from surrounding pixels.</p></div>
+<div><b>3</b><h3>Download</h3><p>Full-resolution PNG or H.264 MP4 with original audio.</p></div></div></section>
+<section id="faq" class="steps"><h2>FAQ</h2>
+<details><summary>Is it really free?</summary><p>Yes. No accounts, credits or paywalls.</p></details>
+<details><summary>Does it remove SynthID?</summary><p>No. Only the visible corner watermark is removed. Google's invisible SynthID signal is not touched, and AI-generated content can still be identified by it. Please disclose AI-generated content where appropriate.</p></details>
+<details><summary>Are my files stored?</summary><p>Files are deleted automatically within an hour.</p></details></section>
+<footer>© FrameX Watermark Remover · Not affiliated with Google.</footer>
+<script src="/app.js"></script></body></html>
